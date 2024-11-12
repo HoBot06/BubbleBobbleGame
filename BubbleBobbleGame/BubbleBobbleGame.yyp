@@ -35,6 +35,8 @@
   "name":"BubbleBobbleGame",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
+    {"id":{"name":"item","path":"sprites/item/item.yy",},},
     {"id":{"name":"player","path":"sprites/player/player.yy",},},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
