@@ -13,9 +13,17 @@ else
 // Player jump
 if(keyboard_check(vk_up))
 {
-	vspd = jumpspd;	
-
+	if(place_meeting(obj_player.x,obj_player.y+1,obj_tile))
+	{
+		vspd = jumpspd;
+		y += vspd;
+	}
 }
 vspd += gravity_;
-y += vspd;
 
+//Player Shoot Bubble
+if(keyboard_check_pressed(vk_space))
+{
+	var bulletStart = instance_create_layer(x,y,"Instances",obj_bubbleStart);
+	bulletStart.direction = obj_player.x + 3;
+}

@@ -34,6 +34,8 @@
   },
   "name":"BubbleBobbleGame",
   "resources":[
+    {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},},
+    {"id":{"name":"obj_bubbleStart","path":"objects/obj_bubbleStart/obj_bubbleStart.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tile","path":"objects/obj_tile/obj_tile.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
