@@ -34,6 +34,7 @@
   },
   "name":"BubbleBobbleGame",
   "resources":[
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"bubble_1","path":"sprites/bubble_1/bubble_1.yy",},},
     {"id":{"name":"bubble_2","path":"sprites/bubble_2/bubble_2.yy",},},
