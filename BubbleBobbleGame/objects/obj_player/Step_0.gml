@@ -20,10 +20,3 @@ if(keyboard_check(vk_up))
 	}
 }
 vspd += gravity_;
-
-//Player Shoot Bubble
-if(keyboard_check_pressed(vk_space))
-{
-	var bulletStart = instance_create_layer(x,y,"Instances",obj_bubbleStart);
-	bulletStart.direction = obj_player.x + 3;
-}
