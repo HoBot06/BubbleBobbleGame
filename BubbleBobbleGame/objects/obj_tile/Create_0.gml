@@ -1,0 +1,1 @@
+obj_p = obj_tile;
