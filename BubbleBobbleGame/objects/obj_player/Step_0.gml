@@ -1,22 +1,30 @@
 // Player horizontal move
 if(keyboard_check(vk_left) || keyboard_check(vk_right))
 {
-	image_xscale = keyboard_check(vk_right) - keyboard_check(vk_left);
-	hspd = (keyboard_check(vk_right) - keyboard_check(vk_left))* 3;
-	x += hspd; 
+	hspd = (keyboard_check(vk_left) - keyboard_check(vk_right))* -3;
+	if(place_meeting(x+hspd,y-1,obj_tile)){
+		hspd = 0;
+	}
 }
 else
 {
 	hspd = 0;
 }
-
+x += hspd; 
 // Player jump
 if(keyboard_check(vk_up))
 {
-	if(place_meeting(obj_player.x,obj_player.y+1,obj_tile))
-	{
+	if(place_meeting(x,y+1,obj_tile)) {
 		vspd = jumpspd;
-		y += vspd;
 	}
 }
-vspd += gravity_;
+
+if(!place_meeting(x,y+vspd,obj_tile)) {
+		{
+			vspd += gravity_;
+		}
+	}
+	else {
+		vspd = 0;
+	}
+y += vspd;
