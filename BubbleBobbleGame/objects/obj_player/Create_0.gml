@@ -1,4 +1,5 @@
 
 hp = 3;
-spd = 0;
-jumped = 0;
+hspd = 0;
+vspd = 0;
+jumpspd = 0;
