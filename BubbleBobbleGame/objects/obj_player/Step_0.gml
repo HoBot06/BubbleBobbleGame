@@ -14,17 +14,22 @@ x += hspd;
 // Player jump
 if(keyboard_check(vk_up))
 {
-	if(place_meeting(x,y+1,obj_tile)) {
+	if(place_meeting(x,y+1,obj_tile)&&noclip==false) {
 		vspd = jumpspd;
+		noclip = true;
+		alarm[1] = 40;
 	}
 }
 
-if(!place_meeting(x,y+vspd,obj_tile)) {
-		{
-			vspd += gravity_;
-		}
+vspd += gravity_;
+if(vspd < 0) {
+	if(place_meeting(x,y+vspd,obj_tile)) {
+		vspd = max(vspd, -6)-gravity_-0.1;
 	}
-	else {
+}
+else if(vspd >= 0) {
+	if(place_meeting(x,y+vspd,obj_tile)) {
 		vspd = 0;
 	}
+}
 y += vspd;
