@@ -11,6 +11,7 @@ else
 	hspd = 0;
 }
 x += hspd; 
+
 // Player jump
 if(keyboard_check(vk_up))
 {

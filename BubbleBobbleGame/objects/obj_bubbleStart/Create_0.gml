@@ -1,3 +1,3 @@
 
 speed = 3;
-alarm[0] = 50;
+alarm[0] = 30;
