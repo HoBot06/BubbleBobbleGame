@@ -1,9 +1,9 @@
 
 // Player Invincible Time
-if(can_damge)
+if(global.can_damage)
 {
 	global.hp--;
-	can_damge = false;
+	global.can_damage = false;
 	alarm[1] = 180;
 	
 }

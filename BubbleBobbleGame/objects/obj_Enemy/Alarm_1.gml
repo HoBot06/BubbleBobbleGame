@@ -1,3 +1,3 @@
 
 // Player Invincible Time Alarm
-can_damge = true;
+global.can_damage = true;
