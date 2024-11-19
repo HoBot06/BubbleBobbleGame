@@ -1,6 +1,6 @@
 
 //instances destroy
-other.sprite_index = enemy_bubble_red;
+other.sprite_index = enemy_bubble;
 
 instance_destroy(self);
 //instance_destroy(other);

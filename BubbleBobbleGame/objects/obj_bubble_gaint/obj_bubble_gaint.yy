@@ -12,8 +12,8 @@
   "name":"obj_bubble_gaint",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bubbles",
+    "path":"folders/Objects/Bubbles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bubble_1",
-    "path":"sprites/bubble_1/bubble_1.yy",
+    "name":"bubble_gaint",
+    "path":"sprites/bubble_gaint/bubble_gaint.yy",
   },
   "spriteMaskId":null,
   "visible":true,

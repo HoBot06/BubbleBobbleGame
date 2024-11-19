@@ -12,8 +12,8 @@
   "name":"obj_bubble",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bubbles",
+    "path":"folders/Objects/Bubbles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
