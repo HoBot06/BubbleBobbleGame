@@ -1,3 +1,4 @@
+isup = true;
 xspeed = 1;
 vspd = 0;
 gravity_= 0.9;
