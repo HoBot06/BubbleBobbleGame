@@ -35,6 +35,10 @@ if(sprite_index==enemy_bubble) {
 	}
 	if(collision_circle(x, y, 10, obj_player, true, false)) {
 		instance_destroy(self);
+		if(is_random(90)) {
+			var _item = choose(obj_Bomb, obj_Dircent, obj_Gint, obj_Score, obj_Target)
+			instance_create_layer(x, y, layer, _item);
+		}
 		global.score += 100;
 	}
 }

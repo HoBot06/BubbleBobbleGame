@@ -1,3 +1,4 @@
+global.reverse = false;
 global.can_damage = true;
 global.score = 0;
 global.hp = 3;
