@@ -50,8 +50,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Player Sprites",
+    "path":"folders/Sprites/Player Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
