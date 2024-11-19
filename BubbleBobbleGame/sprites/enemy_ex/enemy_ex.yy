@@ -34,8 +34,8 @@
     {"$GMSpriteFrame":"","%Name":"a62402da-9f15-4179-99a6-e11b4aafe9c7","name":"a62402da-9f15-4179-99a6-e11b4aafe9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"80b45a0d-631b-42a2-a0a1-e0eca3670ba4","name":"80b45a0d-631b-42a2-a0a1-e0eca3670ba4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"78dfd122-5ddb-4a68-8e2a-a7465c24c7e4","name":"78dfd122-5ddb-4a68-8e2a-a7465c24c7e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"4f8b7721-3461-4788-8ed9-725d9e33e69d","name":"4f8b7721-3461-4788-8ed9-725d9e33e69d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"d413c8ad-f306-43b1-a6d1-1ee2a87ec5bc","name":"d413c8ad-f306-43b1-a6d1-1ee2a87ec5bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"dfb8935b-4813-4e50-b43b-c77f3a497506","name":"dfb8935b-4813-4e50-b43b-c77f3a497506","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"7f4a5709-0d63-4fea-a94a-a9077ca64192","name":"7f4a5709-0d63-4fea-a94a-a9077ca64192","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
@@ -162,11 +162,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"78dfd122-5ddb-4a68-8e2a-a7465c24c7e4","path":"sprites/enemy_ex/enemy_ex.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"43ad3e43-777f-418f-8294-444c88f4d569","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","path":"sprites/enemy_ex/enemy_ex.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"76c0d553-c657-41be-91a5-b9959c406f1b","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f8b7721-3461-4788-8ed9-725d9e33e69d","path":"sprites/enemy_ex/enemy_ex.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0890f47d-5be1-492a-b61c-f441cbecbe3b","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"0890f47d-5be1-492a-b61c-f441cbecbe3b","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95ff5c10-c3a2-47bd-a36c-4321792e122d","path":"sprites/enemy_ex/enemy_ex.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"76c0d553-c657-41be-91a5-b9959c406f1b","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d413c8ad-f306-43b1-a6d1-1ee2a87ec5bc","path":"sprites/enemy_ex/enemy_ex.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f9f6c65e-dd41-4b1d-befb-bdbe6ec324be","IsCreationKey":false,"Key":24.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
