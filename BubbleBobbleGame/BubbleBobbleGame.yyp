@@ -61,6 +61,7 @@
     {"id":{"name":"bubble_8","path":"sprites/bubble_8/bubble_8.yy",},},
     {"id":{"name":"bubble_9","path":"sprites/bubble_9/bubble_9.yy",},},
     {"id":{"name":"bubble","path":"sprites/bubble/bubble.yy",},},
+    {"id":{"name":"enemy_bubble_red","path":"sprites/enemy_bubble_red/enemy_bubble_red.yy",},},
     {"id":{"name":"enemy_bubble","path":"sprites/enemy_bubble/enemy_bubble.yy",},},
     {"id":{"name":"enemy_ex","path":"sprites/enemy_ex/enemy_ex.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
