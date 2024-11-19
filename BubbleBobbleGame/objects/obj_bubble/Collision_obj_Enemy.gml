@@ -1,7 +1,6 @@
 
 //instances destroy
-instance_destroy(self);
-instance_destroy(other);
+other.sprite_index = enemy_bubble;
 
-//score up
-global.score += 100;
+instance_destroy(self);
+//instance_destroy(other);
