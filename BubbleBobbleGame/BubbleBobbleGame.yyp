@@ -79,6 +79,8 @@
     {"id":{"name":"player_shoot","path":"sprites/player_shoot/player_shoot.yy",},},
     {"id":{"name":"player","path":"sprites/player/player.yy",},},
     {"id":{"name":"spr_Bomb","path":"sprites/spr_Bomb/spr_Bomb.yy",},},
+    {"id":{"name":"spr_boss_ex","path":"sprites/spr_boss_ex/spr_boss_ex.yy",},},
+    {"id":{"name":"spr_boss_machine","path":"sprites/spr_boss_machine/spr_boss_machine.yy",},},
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_BubbleStart","path":"sprites/spr_BubbleStart/spr_BubbleStart.yy",},},
     {"id":{"name":"spr_Direcnt","path":"sprites/spr_Direcnt/spr_Direcnt.yy",},},
