@@ -1,4 +1,4 @@
-if (global.can_destory) 
+if (can_destory) 
 {
 	with(obj_Enemy)
 	{
