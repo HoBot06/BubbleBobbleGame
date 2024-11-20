@@ -54,3 +54,13 @@ if (y > room_height) {
 if (y < 0) {
     y = room_height;
 }
+
+// Player Items Timer
+if (global.item_timer > 0) 
+{
+    global.item_timer -= 1; 
+} 
+else 
+{
+    global.active_item = ""; 
+}

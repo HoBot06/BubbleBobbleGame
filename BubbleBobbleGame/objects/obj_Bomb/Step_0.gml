@@ -1,9 +1,6 @@
-if (place_meeting(x, y + 1, obj_tile))
-{
+if (place_meeting(x, y + 1, obj_tile)) {
     global.can_destory = true;
-} 
-else 
-{
+} else {
     global.can_destory = false;
     y += 3;
 }
@@ -21,6 +18,3 @@ if (y > room_height) {
 if (y < 0) {
     y = room_height;
 }
-
-
-

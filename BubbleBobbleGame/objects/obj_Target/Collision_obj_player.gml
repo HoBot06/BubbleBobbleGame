@@ -1,4 +1,7 @@
 
-instance_destroy();
-global.is_target = true;
-alarm[0] = 60;
+if (global.can_destory) 
+{
+	global.active_item = "Target"; 
+	global.item_timer = 300;       
+	instance_destroy(self);  
+}

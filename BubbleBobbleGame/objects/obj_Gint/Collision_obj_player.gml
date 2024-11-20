@@ -1,7 +1,6 @@
-
-if(can_destory)
+if (global.can_destory) 
 {
-	instance_destroy();
-	global.is_gaint = true
-	alram[0] = 60;
+	    global.active_item = "Gaint";
+	    global.item_timer = 300;
+	    instance_destroy(self); 
 }

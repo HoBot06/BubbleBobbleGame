@@ -1,3 +1,6 @@
 
-instance_destroy();
-global.score += 500;
+if(global.can_destory)
+{
+	instance_destroy();
+	global.score += 500;
+}
