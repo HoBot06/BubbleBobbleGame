@@ -21,25 +21,26 @@ if(sprite_index==enemy) {
 		image_xscale = 1;
 	}
 }
-if(sprite_index==enemy_bubble) {
+if(sprite_index==enemy_bubble || sprite_index == enemy_bubble_blue
+ || sprite_index == enemy_bubble_red  || sprite_index == enemy_bubble_orange) {
 	speed = 3;
 	if(!collision_circle(x, y, 15, obj_tile, true, false)){
-	direction = 90;
-	isup = true;
+		direction = 90;
+		isup = true;
 	}
 	if(collision_circle(x+5, y, 8, obj_tile, true, false)) {
 		direction = 180;
 	}
-	if(collision_circle(x-5, y, 8, obj_tile, true, false)) {
+	else if(collision_circle(x-5, y, 8, obj_tile, true, false)) {
 		direction =  0;
 	}
-	if(collision_circle(x, y, 10, obj_player, true, false)) {
-		instance_destroy(self);
+	if(collision_circle(x, y, 20, obj_player, true, false)) {
 		if(is_random(90)) {
 			var _item = choose(obj_Bomb, obj_Dircent, obj_Gint, obj_Score, obj_Target)
-			instance_create_layer(x, y, layer, _item);
+			instance_create_layer(x, y, "Instances", _item);
 		}
 		global.score += 100;
+		instance_destroy(self);
 	}
 }
 

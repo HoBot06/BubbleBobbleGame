@@ -70,6 +70,8 @@
     {"id":{"name":"bubble_gaint","path":"sprites/bubble_gaint/bubble_gaint.yy",},},
     {"id":{"name":"bubble_target","path":"sprites/bubble_target/bubble_target.yy",},},
     {"id":{"name":"bubble","path":"sprites/bubble/bubble.yy",},},
+    {"id":{"name":"enemy_bubble_blue","path":"sprites/enemy_bubble_blue/enemy_bubble_blue.yy",},},
+    {"id":{"name":"enemy_bubble_orange","path":"sprites/enemy_bubble_orange/enemy_bubble_orange.yy",},},
     {"id":{"name":"enemy_bubble_red","path":"sprites/enemy_bubble_red/enemy_bubble_red.yy",},},
     {"id":{"name":"enemy_bubble","path":"sprites/enemy_bubble/enemy_bubble.yy",},},
     {"id":{"name":"enemy_ex","path":"sprites/enemy_ex/enemy_ex.yy",},},

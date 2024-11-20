@@ -1,4 +1,4 @@
-if (global.can_destory) 
+if (can_destory) 
 {
 	    global.active_item = "Gaint";
 	    global.item_timer = 300;

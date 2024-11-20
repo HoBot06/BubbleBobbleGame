@@ -1,7 +1,7 @@
 if (place_meeting(x, y + 1, obj_tile)) {
-    global.can_destory = true;
+    can_destory = true;
 } else {
-    global.can_destory = false;
+    can_destory = false;
     y += 3;
 }
 
