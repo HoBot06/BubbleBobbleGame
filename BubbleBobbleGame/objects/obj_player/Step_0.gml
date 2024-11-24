@@ -15,7 +15,7 @@ x += hspd;
 // Player jump
 if(keyboard_check(vk_up))
 {
-	if(place_meeting(x,y+1,obj_tile)&&noclip==false) {
+	if(place_meeting(x,y+1,obj_tile) || place_meeting(x,y+vspd,obj_tile_boss) &&noclip==false) {
 		vspd = jumpspd;
 		noclip = true;
 		alarm[1] = 40;
@@ -24,12 +24,12 @@ if(keyboard_check(vk_up))
 
 vspd += gravity_;
 if(vspd < 0) {
-	if(place_meeting(x,y+vspd,obj_tile)) {
+	if(place_meeting(x,y+vspd,obj_tile) || place_meeting(x,y+vspd,obj_tile_boss)) {
 		vspd = max(vspd, -6)-gravity_-0.1;
 	}
 }
 else if(vspd >= 0) {
-	if(place_meeting(x,y+vspd,obj_tile)) {
+	if(place_meeting(x,y+vspd,obj_tile) || place_meeting(x,y+vspd,obj_tile_boss)) {
 		vspd = 0;
 	}
 }
