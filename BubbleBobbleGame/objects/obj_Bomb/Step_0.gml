@@ -1,4 +1,4 @@
-if (place_meeting(x, y + 1, obj_tile)) {
+if (place_meeting(x, y + 1, obj_tile1)) {
     can_destory = true;
 } else {
     can_destory = false;

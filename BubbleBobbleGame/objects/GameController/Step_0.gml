@@ -5,3 +5,6 @@ if(global.hp <= 0)
 	show_message("Game Over!");
 	
 }
+if(global.score > 1000){
+	room_goto(BossStage);
+}

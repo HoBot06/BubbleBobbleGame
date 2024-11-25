@@ -8,6 +8,6 @@ global.can_destory = false;
 global.active_item = "";
 global.item_timer = 0;
 
-stage = 1; 
+global.stage = 1;
 
 alarm[0] = choose(2,3,4);
