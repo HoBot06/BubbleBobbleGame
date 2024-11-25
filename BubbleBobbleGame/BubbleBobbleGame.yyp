@@ -70,6 +70,7 @@
     {"id":{"name":"Stage2","path":"rooms/Stage2/Stage2.yy",},},
     {"id":{"name":"Stage3","path":"rooms/Stage3/Stage3.yy",},},
     {"id":{"name":"Stage4","path":"rooms/Stage4/Stage4.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"isRandom","path":"scripts/isRandom/isRandom.yy",},},
     {"id":{"name":"bubble_1","path":"sprites/bubble_1/bubble_1.yy",},},
     {"id":{"name":"bubble_2","path":"sprites/bubble_2/bubble_2.yy",},},
@@ -116,11 +117,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
-    {"roomId":{"name":"BossStage","path":"rooms/BossStage/BossStage.yy",},},
     {"roomId":{"name":"Stage2","path":"rooms/Stage2/Stage2.yy",},},
     {"roomId":{"name":"Stage3","path":"rooms/Stage3/Stage3.yy",},},
     {"roomId":{"name":"Stage4","path":"rooms/Stage4/Stage4.yy",},},
+    {"roomId":{"name":"BossStage","path":"rooms/BossStage/BossStage.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
