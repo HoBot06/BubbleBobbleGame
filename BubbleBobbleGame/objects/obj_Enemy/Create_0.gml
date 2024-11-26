@@ -1,5 +1,5 @@
 isup = true;
-xspeed = 1;
+xspeed = global._xspeed;
 vspd = 0;
 gravity_= 0.9;
 depth = -1;
