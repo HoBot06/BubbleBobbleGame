@@ -6,8 +6,8 @@
   "name":"obj_Ui_Background",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Room",
+    "path":"folders/Objects/Room.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,1 +1,1 @@
-room_goto(Stage1);
+room_goto(BossStage);

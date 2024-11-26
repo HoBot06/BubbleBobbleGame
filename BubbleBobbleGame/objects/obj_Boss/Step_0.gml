@@ -14,24 +14,28 @@ if(instance_number(obj_Enemy) <= 0) {
 			instance_create_depth(288, 256, 0, obj_Enemy);
 			instance_create_depth(288, 416, 0, obj_Enemy);
 			instance_create_depth(288, 576, 0, obj_Enemy);
+			instance_create_depth(310, 500, -6, obj_Effect_Boss);
 		}
 		if(_life == 1) {
 			global._xspeed = 1.6;
 			instance_create_depth(288, 256, 0, obj_Enemy);
 			instance_create_depth(288, 416, 0, obj_Enemy);
 			instance_create_depth(288, 576, 0, obj_Enemy);
+			instance_create_depth(310, 500, -6, obj_Effect_Boss);
+
 		}
 		if(_life == 0) {
 			global._xspeed = 1.8;
 			instance_create_depth(288, 416, 0, obj_Enemy);
 			instance_create_depth(288, 576, 0, obj_Enemy);
+			instance_create_depth(310, 500, -6, obj_Effect_Boss);
+			
 		}
 		_isspawn = true;
 	}
 	else {
 		if(_life < 0) {
-			show_message("Game Clear!");
-			game_end();
+			room_goto(Ending);
 		}
 		image_index = image_index + 1;
 		_life -=1;

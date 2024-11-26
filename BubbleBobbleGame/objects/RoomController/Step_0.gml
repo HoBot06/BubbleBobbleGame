@@ -1,8 +1,6 @@
 if(global.hp <= 0)
 {
-	game_end();
-	show_message("Game Over!");
-	
+	room_goto(GameOver);	
 }
 if(room == Stage1) {
 	if(instance_number(obj_Enemy)<= 0) {
