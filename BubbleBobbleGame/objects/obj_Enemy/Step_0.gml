@@ -35,12 +35,13 @@ if(sprite_index==enemy_bubble || sprite_index == enemy_bubble_blue
 		direction =  0;
 	}
 	if(collision_circle(x, y, 20, obj_player, true, false)) {
-		if(is_random(90)) {
+		if(is_random(40)) {
 			var _item = choose(obj_Bomb, obj_Dircent, obj_Gint, obj_Score, obj_Target)
 			instance_create_layer(x, y, "Instances", _item);
 		}
 		global.score += 100;
 		instance_destroy(self);
+		instance_create_layer(x,y,"Instances",obj_Bomb_Effect);
 	}
 }
 

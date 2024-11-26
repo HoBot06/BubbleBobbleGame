@@ -25,7 +25,7 @@ if(keyboard_check(vk_up))
 vspd += gravity_;
 if(vspd < 0) {
 	if(place_meeting(x,y+vspd,obj_tile1) || place_meeting(x,y+vspd,obj_tile_boss)) {
-		vspd = max(vspd, -6)-gravity_-0.1;
+		vspd = max(vspd, -5)-gravity_-0.1;
 	}
 }
 else if(vspd >= 0) {
@@ -63,4 +63,17 @@ if (global.item_timer > 0)
 else 
 {
     global.active_item = ""; 
+}
+
+if(global.can_damage == false) {
+	image_alpha += _alpha;
+	if(image_alpha <= 0.3) {
+		_alpha = 0.1;
+	}
+	if(image_alpha >= 0.95) {
+		_alpha = -0.1;
+	}
+}
+else{
+	image_alpha = 1;
 }

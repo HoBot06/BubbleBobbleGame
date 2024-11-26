@@ -6,6 +6,5 @@ if(sprite_index == enemy) {
 		global.hp--;
 		global.can_damage = false;
 		alarm[1] = 180;
-	
 	}
 }

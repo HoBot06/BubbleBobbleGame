@@ -6,3 +6,5 @@ image_yscale = 2;
 speed = speed_;
 
 depth = -1;
+
+alarm[0] = 300;

@@ -93,7 +93,7 @@
     {"id":{"name":"enemy_ex","path":"sprites/enemy_ex/enemy_ex.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"item","path":"sprites/item/item.yy",},},
-    {"id":{"name":"player_attack","path":"sprites/player_attack/player_attack.yy",},},
+    {"id":{"name":"player_hit","path":"sprites/player_hit/player_hit.yy",},},
     {"id":{"name":"player_shoot","path":"sprites/player_shoot/player_shoot.yy",},},
     {"id":{"name":"player","path":"sprites/player/player.yy",},},
     {"id":{"name":"spr_Bomb","path":"sprites/spr_Bomb/spr_Bomb.yy",},},

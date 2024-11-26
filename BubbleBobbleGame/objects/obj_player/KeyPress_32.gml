@@ -16,5 +16,5 @@ if(image_xscale == -1)
 if (sprite_index == player)
 {
     sprite_index = player_shoot;
-	alarm[0] = 60;
+	alarm[0] = 30;
 } 
