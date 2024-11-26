@@ -1,3 +1,5 @@
-depth = -5;
 
-alarm[0]=180;
+_isspawn = false;
+_life = 3;
+
+depth = -5;
